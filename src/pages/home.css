@@ -1,0 +1,32 @@
+.home-container {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-image: url("../img/luc-bercoth-4ykELaXgeOM-unsplash.jpg");
+  background-size: cover;
+  background-position: 50% 38%;
+}
+
+.home {
+  text-align: center;
+  padding: 36px;
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 500px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: var(--color-gold);
+  font-size: 3rem;
+}
+
+.home-desc {
+  color: white;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.highlight {
+  color: var(--color-gold);
+  font-weight: 700;
+}

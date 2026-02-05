@@ -1,3 +1,14 @@
 import "./index.css";
+import { renderHome } from "./pages/home.js"
 
-console.log("Hello World");
+renderHome();
+
+const nav = document.querySelector("nav");
+
+nav.addEventListener("click", e => {
+    switch(e.target.id) {
+        case "home":
+            renderHome();
+            break;
+    }
+});
