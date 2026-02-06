@@ -45,12 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Beginning of Styles */
 :root {
   --color-gold: #dc7204;
+  --color-bg: #0c0b0f;
 }
 
 body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: max-content 1fr;
+  background-color: var(--color-bg);
 }
 
 header {
