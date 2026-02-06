@@ -1,0 +1,40 @@
+.about-container {
+    height: 100%;
+    width: min(700px, calc(100vw - 4rem));
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 48px 16px;
+    border: white 1px solid;
+}
+
+.about-grid > div {
+    padding: 24px;
+}
+
+.about-left {
+    border-right: var(--color-gold) 1px solid;
+}
+
+h4 {
+    color: var(--color-gold);
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+}
+
+.about-content {
+    color: rgb(221, 221, 221);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}

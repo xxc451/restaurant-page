@@ -1,4 +1,5 @@
 import "./index.css";
+import { renderAbout } from "./pages/about.js";
 import { renderHome } from "./pages/home.js";
 import { renderMenu } from "./pages/menu.js";
 
@@ -13,6 +14,9 @@ nav.addEventListener("click", e => {
             break;
         case "menu":
             renderMenu();
+            break;
+        case "about":
+            renderAbout();
             break;
     }
 });
